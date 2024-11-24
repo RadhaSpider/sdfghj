@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<head>
+    <title>Book Club</title>
+    <style>
+        body {
+            background-color: rgb(204, 62, 86);
+        }
+        header {
+            background-color: purple;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav {
+            background-color: green;
+            position: sticky;
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+        }
+        #intro {
+            background-color: blue;
+            font-family: serif, Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .main-section-content h2 {
+            background-color: violet;
+            font-family: serif, Arial, Helvetica, sans-serif;
+            padding: 4px;
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        #bestsellers,
+        footer {
+            background-color: pink;
+        }
+        header h1{
+            color: rgb(4, 163, 81);
+            font-size: 45px;
+            font-family: serif, Arial, Helvetica, sans-serif;
+            margin: 30px;
+        }
+        h2,
+        p {
+            color: black;
+        }
+        table,
+        th,
+        td {
+            border: 1px black;
+        }
+        tr:last-child{
+            color: aqua;
+        }
+        span {
+            color: aqua;
+        }
+        footer p :first-child span {
+            color: aqua;
+        }
+        .teacher-info {
+            border: 1px black;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        button {
+            color: aqua;
+            background-color: aqua;
+            position: fixed;
+            right: 40px;
+            bottom: 40px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li a {
+            text-decoration: none;
+            color: darksalmon;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        li a:hover {
+            color: cadetblue;
+        }
+        p {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+        }
+        nav li {
+            margin: 10px;
+            padding: 5px;
+            border: 1 black solid;
+            border-radius: 5px;
+        }
+        .main-section-content {
+            padding: 5px;
+        }
+        table {
+            margin: auto;
+        }
+        th,
+        td {
+            padding: 10px;
+        }
+        footer {
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #bestsellers h2 {
+            padding: 20px;
+        }
+        ol li {
+            margin-bottom: 20px;
+        }
+        #book-reviews p,
+        #book-reviews h3 {
+            position: relative;
+            left: 40%;
+            width: 400px;
+        }
+        #videos div {
+            display: flex;
+            justify-content: space-around;
+        }
+        #teachers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        </style>
+    <div class="grid-container">
+    <header>
+    <h1>Mount Caramel book club</h1>
+    <img src="C:\Users\sanju\Downloads\images (1).jfif" alt="Mountain Image"> 
+    </header>
+    <nav>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Programming_Perl">Another Amazing Book</a></li>
+        <li><a href="https://apsdagshai.org/class-wise-books/">Find Your Amazing books according to your class</a></li>
+        <li><a href="https://apsdagshai.org/">Contact us</a></li>
+    </ul>
+    </nav>
+    <div id="Intro"></div>
+    <h2>Welcome to Mount Caramel Book Club</h2>
+    <p>The Mount Caramel Book Club is an online community of book readers is Mount Caramel school</p>
+    </div>
+    <div id="main-section">
+    <div class="main-section-content">
+    <div class="teacher-info">
+    <h2>Meet our teachers</h2>
+    <div id="teachers">
+    <div class="teacher-info">
+    <div>
+    <img src="C:\Users\sanju\Downloads\download (6).jfif" alt="Teacher image">
+    </div>
+    <div>
+    <h3>Ms. Emma</h3>
+    <p>She teaches elementry school kids. She has a bachelor's degree in elementry education</p>
+    </div>
+    <div>
+    <img src="C:\Users\sanju\Downloads\download (7).jfif" alt="Teacher image">
+    </div>
+    <div>
+    <h3>Ms. Caroline</h3>
+    <p>She teaches secondary school and high school kids. She has a <i>Master's of Arts.</i></p>
+    </div>
+    </div>
+    </div>
+    <div>
+    <h2>Book Review</h2>
+    <h3>Alice in the wonderland</h3>
+    <p><b>Amit:</b>"I loved reading this book. A must read for everyone."</p>
+    <p><b>Sekhar:</b>"I really enjoyed reading this book"</p>
+    <h2>Best Sellers</h2>
+    <p><b>Charlie and the Chocolate Factory</b> by <i>Roald Dahl</i></p>
+    <p><b>The Cat in the Hat</b> by <i>Dr Seuss</i></p>
+    <p><b>The Little Price</b> by <i>Antoine de Saint</i></p>
+    <p><b>Where the Wild Things Are</b> by <i>Maurice Sendak</i></p>
+    </div>
+    <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Bf8V7cF8t48?si=iCD641NSYdEnLu2z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div>
+    <audio controls autoplay>
+        <source src="C:\Users\sanju\Downloads\Tauba Tauba - Bad Newz 320 Kbps.mp3" type="audio/mp3">
+    </audio>
+    </div>
+    <div>
+    <h2>Opening timings</h2>
+    </div>
+    <div>
+    <table>
+        <tr>
+            <th>Monday</th>
+            <td>11am - 3pm</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>11am - 3pm</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>11am - 3pm</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>11am - 3pm</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>11am - 1pm</td>
+        </tr>
+        <tr>
+            <th>Sunday</th>
+            <td>Closed</td>
+        </tr>
+    </table>
+    </div>
+    <footer>
+    <br>
+    <p>Contact Us: Mrs. Caroline</p>
+    <br>
+    <p>Phone No: +1123533</p>
+    </footer>
+    </div>
+</head>
